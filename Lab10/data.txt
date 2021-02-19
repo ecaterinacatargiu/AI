@@ -1,0 +1,30 @@
+Temperature
+cold,0,15,30,50
+cool,30,50,70
+moderate,60,70,80
+hot,70,90,110
+very hot,90,110,130,150
+Capacity
+small,-5,0,5
+medium,3,5,7
+high,5,10,15
+Power
+small,-10,0,10
+medium,5,10,15
+high,10,20,30
+Rules
+cold,small,small
+cold,medium,medium
+cold,high,high
+cool,small,small
+cool,medium,medium
+cool,high,high
+moderate,small,small
+moderate,medium,small
+moderate,high,small
+hot,small,small
+hot,medium,small
+hot,high,small
+very hot,small,small
+very hot,medium,small
+very hot,high,small
